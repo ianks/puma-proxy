@@ -4,6 +4,11 @@ A really simple proxy for Ruby's [Puma web server](https://puma.io/) written in 
 
 _Not meant for production_. Use in development or testing environments only.
 
+# Install
+
+Option 1: Install with homebrew -> `brew install ianks/tap/puma-proxy`
+Option 2: Install with go -> `go get github.com/ianks/puma-proxy`
+Option 3: Download the tarball from the releases page 
 # Usage
 
 ```sh

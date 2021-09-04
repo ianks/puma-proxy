@@ -30,3 +30,8 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+brews:
+  - name: puma-proxy
+    tap:
+      owner: ianks
+      name: homebrew-tap
