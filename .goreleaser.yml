@@ -32,6 +32,8 @@ changelog:
       - '^test:'
 brews:
   - name: puma-proxy
+    homepage: "https://github.com/ianks/puma-proxy"
+    description: "A simple reverse proxy for the Puma app server"
     tap:
       owner: ianks
       name: homebrew-tap
