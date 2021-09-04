@@ -1,4 +1,4 @@
-module ianks/puma-proxy
+module github.com/ianks/puma-proxy
 
 go 1.14
 
