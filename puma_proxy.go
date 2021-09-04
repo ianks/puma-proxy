@@ -51,6 +51,11 @@ func copyHeader(dst, src http.Header) {
 
 func runCommand() {
 	args := flag.Args()
+
+	if len(args) == 0 {
+		return
+	}
+
 	log.Println("Running command: $", strings.Join(args[:], " "))
 	execCmd, execArgs := args[0], args[1:]
 	cmd = exec.Command(execCmd, execArgs...)
